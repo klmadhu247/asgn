@@ -6,16 +6,98 @@ body{
 
 
 main{
+    display: flex;
+    justify-content: center;
+    align-content: center;
     
 }
 
 .container {
+    display: grid;
     background-color: white;
     width: 50%;
     height: 50%;
-    margin: auto;
+    margin:50px auto;
+    
+}
+.container h3 
+{
+
 }
 .question
 {
+    border: 2px solid red;
+    margin-bottom: 3px;
+    border-radius: 1px;
+    
+}
+.question h4
+{
+    text-transform: none;
+    
+}
+.question header
+{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    
+}
+
+.body_main
+{
+    background: rgb(80, 8, 101);
+    
+}
+.Acord_main
+{
+    background: white;
+    
+    width: 75%;
+    height: 75%;
+    margin: 100px 100px;
+    border-radius: 20px;
+}
+.container_box
+{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+.symbol
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(244, 241, 241);
+    border-color: transparent;
+    
+    width: 2rem;
+    height: 2rem;
+    
+    border-radius: 50%;
+    color: red;
+    
+    cursor: pointer;
+    
+    
+}
+.login_text
+{
+    margin-right: 50px;
+
+}
+.accord_List
+{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 1rem 1.5rem;
+    border: 1px solid grey;
+    margin: 4px;
+}
+.question_List
+{
+    padding: 1rem 1.5rem;
     
 }

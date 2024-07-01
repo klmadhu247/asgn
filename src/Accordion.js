@@ -20,7 +20,7 @@ function Accordion (){
                     <section>
                     {questions.map((qsn) => {
   
-  return 
+ 
     <SingleQuestion
       key={qsn.id}
       id={qsn.id}

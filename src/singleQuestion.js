@@ -11,13 +11,21 @@ function SingleQuestion (props){
             setShowInfo(!showInfo)
         }
     return(
-        <article className="question">
-            <header><h4>{props.title}</h4>
-            <button className="btn" onClick={()=>handleClick()}>{showInfo? <AiOutlinePlus/>:<AiOutlineMinus/>}</button>
-            </header>
-            {showInfo && <p>props.info</p>}
+        <body className="body_main"> <main className="Acord_main" >
 
-        </article>
+        <div className="container_box ">
+
+            <div className="login_text "><h3>Qestions And Answers About Login </h3> </div>
+
+           <article className="question_List">
+               <h5>{props.title} </h5>  <button  className="symbol" onClick={()=>handleClick()}> {showInfo? <AiOutlinePlus/>:<AiOutlineMinus/>} </button> 
+               {showInfo && <p>{props.info}</p>}
+             </article>
+
+        </div>
+        </main>
+
+        </body>
     )
 }
 export default SingleQuestion
